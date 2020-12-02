@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+.app {
+    background: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 850px;
+    min-height: 850px;
+    background-color: rgb(10, 31, 68);
+    margin: 50px 0;
+}
+
+.header {
+    font-size: 5.8rem;
+    font-weight: 700;
+    color: white;
+    margin: 48px 0 30px 46px;
+}
+
+
+/* form */
+
+.app__form {
+    margin: 0 48px 0;
+}
+
+.app__form-input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 2.8rem;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+    border-color: white;
+    font-weight: 500;
+    color: white;
+}
+
+.app__form-input::placeholder {
+    color: white;
+}
+
+.app__form-btn {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(255, 30, 66);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 16px;
+    transition: background 0.3s ease-in-out;
+    outline: none;
+}
+
+.app__form-btn:hover {
+    background-color: #c3112d;
+}
+
+.notifycation {
+    color: white;
+    margin-left: 46px;
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+.notifycation.hidden {
+    display: none;
+}
+
+
+/* footer */
+
+.footer {
+    text-align: right;
+    margin: 114px 46px;
+}
+
+.footer__small {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.footer__small span {
+    color: red;
+}
+
+.footer__small-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* //container */
+
+.citis {
+    margin: 70px 46px 50px 50px;
+}
+
+.citis__container {}
+
+.citis__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.citis__item {
+    background-color: #fff;
+    width: 236px;
+    height: 366px;
+    border-radius: 16px;
+    font-size: 1.8rem;
+    list-style: none;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.citis__item:nth-child(3n+1) {
+    margin-right: 22px;
+}
+
+.citis__item:nth-child(3n+2) {
+    margin-right: 22px;
+}
+
+.citis__ml {
+    margin-left: 26px;
+}
+
+.citis__name {
+    font-weight: 100;
+    color: rgb(83, 98, 124);
+    margin: 48px 0 30px 26px;
+    max-width: 130px;
+}
+
+.abc {
+    display: flex;
+    align-items: center;
+}
+
+.citis__country {
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    background-color: rgb(255, 140, 0);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 6px;
+}
+
+.citis__temp {
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: rgb(30, 36, 50);
+    position: relative;
+}
+
+.citis__temp span {
+    font-size: 2.8rem;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+}
+
+.citis__description {
+    margin-top: 4px;
+    color: rgb(83, 98, 124);
+    font-size: 1.6rem;
+}
